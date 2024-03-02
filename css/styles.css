@@ -15,10 +15,11 @@ a {
 .logo {
 font-weight: 700;
 font-size: 18px;
-line-height: 21px;
 letter-spacing: 0.03em;
 text-transform: uppercase;
 color: #4D5AE5;
+font-family: "Raleway", sans-serif;
+line-height: 1.17;
 }
 
 
@@ -45,9 +46,11 @@ color: #4D5AE5;
     color: #404bbf
 }
 
+address {
+    font-style: normal;
+}
 
 .address .address-item .address-link {
-    font-style: normal;
     font-size: 16px;
     line-height: 24px;
     color: #434455;
@@ -68,7 +71,8 @@ color: #4D5AE5;
     font-weight: 700;
     font-size: 56px;
     line-height: 1.07;
-    letter-spacing: 0.02em
+    letter-spacing: 0.02em;
+    text-align: center
 }
 
 .main-title .main-button {
@@ -78,8 +82,8 @@ color: #4D5AE5;
     font-weight: 500;
     font-size: 16px;
     line-height: 24px;
-    font-family:inherit
-    letter-spacing: 0.04em
+    font-family:inherit;
+    letter-spacing: 0.04em;
 }
 
 .main-title .main-button:hover, 
@@ -134,9 +138,10 @@ color: #4D5AE5;
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: #2E2F42;
+    text-align: center;
 }
 
-.team .team-list {
+.team .team-list .team-item {
     background-color: #FFFFFF;
 }
 
@@ -161,7 +166,8 @@ color: #4D5AE5;
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: #2E2F42;
-    line-height: 1.11
+    line-height: 1.11;
+    text-align: center;
 }
 
 .portfolio-list .portfolio-item .portfolio-item-title {
